@@ -1,0 +1,46 @@
+/* Extra large Devices, lg screens*/
+@media only screen and(min-width: 1300px){
+	
+}
+
+
+
+
+
+/* large Devices, wide screens*/
+@media only screen and(max-width: 1200px){
+	
+}
+
+
+
+
+
+/* Medium Devices,  Desktops*/
+@media only screen and(max-width: 992px){
+
+}
+
+
+
+
+/* Small Devices,  Tabletes*/
+@media only screen and(max-width: 768px){
+	
+}
+
+
+
+
+/* Extra Small Devices,  Phones*/
+@media only screen and(max-width: 480px){
+	
+}
+
+
+
+
+/* Custon,  iPhone Retina*/
+@media only screen and(max-width: 320px){
+	
+}

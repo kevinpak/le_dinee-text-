@@ -1,0 +1,66 @@
+.family1{
+	font-family: 'Philosopher', sans-serif;
+}
+.family2{
+	font-family: 'Lobster', sans-serif;
+}
+.family3{
+	font-family: 'Fugaz One', cursive;
+}
+
+.family4{
+	font-family: 'Comfortaa', cursive;
+}
+
+.xxxx{
+	background-image: url(images/image_header.JPG);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+/*--------------------Linkbox---------------------*/
+#formulaire,#formulaire2{
+			position:absolute;
+			width:55%;
+			border:1px solid green;
+			padding:10px 15px 10px 15px;
+			left:0%;
+			top:0px;
+			margin-left:25%;
+			background-color:#FFF;
+			margin-top: 30px;
+			z-index:2;
+			display:none;
+			//text-align: center;
+			border-radius: 20px;
+			//overflow: hidden;
+
+			}
+			
+#hide{
+		position:absolute;
+		top:-20px;
+		right:-20px;
+		color:#FFF5EF;
+		background-color: black;
+		text-decoration:none;
+		text-align: center;
+		font-size:40px;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		border-radius: 50px;
+		border: solid 2px white;
+
+	}
+#background{
+			width:100%;
+			height:100%;
+			position:absolute;
+			top:0px;
+			left:0px;
+			background-color:#999;
+			opacity:0.5; // qui rend trensparent
+			z-index:1;
+			display:none;
+			}

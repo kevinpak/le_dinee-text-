@@ -1,0 +1,184 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.left{float: left; overflow:hidden;} .right{float: right;  overflow:hidden;} .border{border: solid 1px;}
+.none , #forme_plat input[type='text']{display: none;}
+.head{
+	width: 100%;
+	height: 70px;
+	overflow: hidden;
+	background-color: #046380;
+	padding: 0px 20px 0px 20px;
+}
+.log_img{
+	width: 70px;
+	height: 70px;
+}
+.log_text{
+	color: white;
+	line-height: 70px;
+}
+.main{
+	width: 90%;
+	margin: 20px auto;
+}
+.bloc_left{
+	width: 20%;
+	min-height: 200px;
+	background-color: #E1E6FA;
+}
+.cathegories h2{
+	width: 100%;
+	text-align: center;
+	font-family: 'Lobster', sans-serif;
+	color: #FF5B2B;
+}
+.bloc_right{
+	width: 75%;
+	min-height: 200px;
+	margin-left: 5%;
+	background-color: #E1E6FA;
+}
+.bloc_right h2{
+text-align: center;
+font-family: 'Lobster', sans-serif;
+	color: green;
+}
+.menu ul{
+	display: block;
+}
+.menu ul li {
+	list-style: none;
+}
+.menu ul li a{
+	font-size: 18px;
+	color: #52251C;
+	font-family: 'Lobster', sans-serif;
+	margin-left: 25%;
+}
+.plat {
+	width: 46%;
+	margin: 2%;
+	height: 250px;
+	float: left;
+	position: relative;
+}
+ .plat_img , .plat_desc{
+ 	width: 90%;
+ 	margin: auto;
+ 	text-align: center;
+ 	display: block;
+ }
+.plat_img img{
+	width: 70%;
+	height: 180px;
+	margin: auto;
+}
+.plat_desc h2{
+	font-size: 22px;
+	color: #40A497;
+	font-family: 'Lobster', sans-serif;
+}
+.al{
+	overflow: hidden;
+}
+
+.al1,.al2{
+	float: left;
+}
+.choix a{
+	//margin: 10px 5px;
+	//font-size: 15px;
+	color:white;
+	//background-color:yellow ;
+	//padding: 5px;
+}
+
+.direction{
+	width: 100%;
+	display: block;
+	margin: 30px 0px;
+	text-align:right;
+}
+.direction a{
+	margin: 10px 30px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #40A497;
+	background-color: white;
+}
+.direction a:hover{
+	text-decoration: none;
+}
+.direction a:hover i{
+	color: red;
+}
+
+.det_choix img{
+	width: 40%;
+	height: auto;
+	border: solid 2px #40A497; 
+}
+
+.det_choix p{
+	width: 40%;
+	height: auto;
+text-align: center;
+color: red;
+font-weight: bold;
+font-size: 22px;
+margin-top: 10px; 
+}
+
+.paner table tr td{
+	width: 20%;
+	text-align: center;
+}
+.paner .p_img img{
+	width: 20%;
+	height: auto;
+}
+.n_title{
+	font-weight: bold;
+	font-size: 20px;
+	color: blue;
+}
+.prodoct_name{
+	font-weight: bold;
+	font-size: 14px;
+	color:#880E4F;
+	text-align: left !important;
+	padding-left: 5% !important;
+}
+.price{
+	font-weight: bold;
+	font-size: 20px;
+	color:red;
+}
+.h_price  span{
+	font-size: 20px;
+	color:white !important;
+	margin: 0px 10px;
+}
+.boc{
+	font-size: 20px;
+	color:#C6FF00 !important;
+	
+}
+.fa-trash{
+	cursor: pointer;
+}
+.paner{
+	width: 95%;
+	margin: 15px auto;
+	background-color: white;
+
+}
+
+.enre{
+	text-align: center;
+	margin: auto;
+}
